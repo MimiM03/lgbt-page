@@ -104,8 +104,8 @@ nav ul li:hover::before{
 	footer{
 		flex-wrap: wrap;
 	}
-	.mission, .footer-nav, .contact{
-		width: 90vw;
+	.mission{
+		width: 90%;
 		margin: 0 auto;
 	}
 }
