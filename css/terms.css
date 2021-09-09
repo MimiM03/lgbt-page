@@ -1,0 +1,69 @@
+/*white-ish - #f0e4d7
+light pink - #f5c0c0
+pink - #ff7171
+light blue - #9fd8df
+font-family: 'Roboto', sans-serif;
+*/
+h1{
+	margin: 20px 0;
+	color: #ff7171;
+}
+.alphabet-nav{
+	text-align: left;
+}
+.alphabet-nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+	color: gray;
+}
+.alphabet-nav ul li:last-child{
+	margin-right: 0;
+}
+.alphabet-nav ul li a, .alphabet-nav ul li a:visited{
+	text-decoration: none;
+	color: blue;
+}
+.alphabet-nav ul li a:hover{
+	text-decoration: underline;
+}
+.anchor{
+    position: relative;
+    top: -15vh;
+}
+p{
+	margin: 15px 0;
+}
+
+hr{
+	height: 1px;
+}
+
+section > div{
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dictionary{
+	width: 60%;
+	margin-right: 30px;
+}
+img{
+
+	width: 35%;
+}
+
+@media screen and (max-width:  767px){
+	section > div{
+		flex-wrap: wrap;
+	}
+	img{
+		width: 90%;
+		margin: 20px auto;
+	}
+	.dictionary{
+		width: 100%;
+		margin: 0;
+	}
+}

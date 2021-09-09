@@ -1,0 +1,68 @@
+/*white-ish - #f0e4d7
+light pink - #f5c0c0
+pink - #ff7171
+light blue - #9fd8df
+font-family: 'Roboto', sans-serif;
+*/
+#home-photo{
+	width: 100vw;
+	opacity: 80%;
+	max-width: 900px;
+}
+main{
+	width: 100%;
+}
+section{
+	width: 90vw;
+	position: relative;
+	top: -15vh;
+	left: 5vw;
+}
+.home-image{
+	background-color: white;
+}
+.intro{
+	background-color: white;
+	border-radius: 10px;
+	padding: 15px 10px;
+	max-width: 800px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px 2px #929292;
+}
+#general-inf{
+	text-align: left;
+	max-width: 900px;
+	margin: 20px auto;
+}
+#general-inf ul li{
+	margin: 5px 0;
+	display: block;
+}
+#general-inf ul li:before {
+  content: "• ";
+  font-size: 1.5rem;
+  position: relative;
+  top: 2.5px;
+}
+.navigation p{
+	margin-top: 30px;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.navigation ul li{
+	display: inline-block;
+	margin: 5px 5px;
+}
+.navigation ul li:before {
+  content: "• ";
+}
+.navigation ul li a, .navigation ul li a:visited{
+	text-decoration: none;
+	color: blue;
+}
+.navigation ul li a:hover{
+	text-decoration: underline;
+}
+footer{
+	position: static;
+}

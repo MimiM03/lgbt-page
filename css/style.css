@@ -1,0 +1,204 @@
+/*white-ish - #f0e4d7
+light pink - #f5c0c0
+pink - #ff7171
+light blue - #9fd8df
+font-family: 'Roboto', sans-serif;
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+body{
+	background-color: #f0e4d7;
+}
+#logo{
+	font-size: 2rem;
+	color: white;
+	line-height: 12vh;
+	padding: 0 30px;
+	font-weight: bold;
+}
+nav{
+	background-color: #9fd8df;
+	height: 12vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+nav ul{
+	float: right;
+	margin-right: 5vw;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 12vh;
+	margin: 0 5px;
+	position: relative;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li::before{
+	content: "";
+	display: block;
+	width:0;
+	height: 3px;
+	position: absolute;
+	background-color: white;
+	top: 65%;
+	border-radius: 5px;
+	/*transform: scale(0);*/
+	transition: all .5s ease;
+}
+nav ul li:hover::before{
+	/*transform: scale(1);*/
+	width: 100%;
+}
+.check-button{
+	font-size: 2rem;
+	color: white;
+	float: right;
+	line-height: 12vh;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none; 
+}
+#check{
+	display: none;
+}
+@media (max-width: 767px){
+	.check-button{
+		display: block;
+	}
+	nav ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: #f5c0c0;
+		top: 12vh;
+		left: -100%;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	nav ul li{
+		display: block;
+	}
+	nav ul li a{
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		line-height: 4rem;
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+}
+main{
+	position: relative;
+	padding-top: 12vh;
+	text-align: center;
+	width: 90vw;
+	margin: 0 auto;
+}
+section > div{
+	margin: 30px 0;
+}
+.fixed{
+	z-index: 9999;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #9fd8df;
+	background-color: white;
+	border: 5px solid #9fd8df;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+footer{
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	height: 55vh;
+	background-color: #ff7171;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: white;
+}
+footer h3{
+	margin: 10px 0;
+}
+#logo-footer{
+	font-size: 2.5rem;
+	color: white;
+	font-weight: bold;
+}
+
+.mission{
+	align-self: flex-start;
+	width: 30%;
+	text-align: left;
+}
+.footer-nav{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.footer-nav ul li{
+	display: block;
+	margin: 5px 0;
+}
+.footer-nav a, .contact a{
+	color: #ffd9d9;
+	text-decoration: none;
+}
+.contact a{
+	font-size: 1.75rem;
+	margin-right: 15px;
+}
+.footer-nav a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+/*.contact a: hover{
+	color: #fff;
+	text-decoration: none;
+}
+*/.contact{
+	width: 30%;
+}
+form{
+	text-align: left;
+}
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #5DADE2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+}

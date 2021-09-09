@@ -1,0 +1,61 @@
+/*white-ish - #f0e4d7
+light pink - #f5c0c0
+pink - #ff7171
+light blue - #9fd8df
+font-family: 'Roboto', sans-serif;
+*/
+h1{
+	color: #ff7171;
+	margin: 20px 0;
+}
+section{
+	text-align: center;
+}
+.intro{
+	max-width: 85%;
+}
+.intro ul li{
+	display: block;
+}
+.intro ul li:before{
+	content: "• ";
+	font-size: 1.5rem;
+	position: relative;
+  	top: 2.5px;
+}
+h3{
+	margin-bottom: 10px;
+}
+section > div, .intro{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.text{
+	width: 60%;
+	margin-right: 30px;
+}
+.intro .text{
+	margin: 0 0 0 30px;
+}
+img{
+	width: 35%;
+	margin: 20px 0;
+}
+
+@media screen and (max-width:  767px){
+	section > div{
+		flex-wrap: wrap;
+	}
+	.intro{
+		flex-wrap: wrap-reverse;
+	}
+	img{
+		width: 90%;
+		margin: 20px auto;
+	}
+	.text{
+		width: 100%;
+		margin: 0;
+	}
+}
