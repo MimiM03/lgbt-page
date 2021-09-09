@@ -101,6 +101,9 @@ nav ul li:hover::before{
 	#check:checked ~ ul{
 		left: 0;
 	}
+	body{
+		width: 100vw;
+	}
 	footer{
 		flex-wrap: wrap;
 		width:100vw;
