@@ -101,9 +101,6 @@ nav ul li:hover::before{
 	#check:checked ~ ul{
 		left: 0;
 	}
-	*{
-		border: 1px solid red;
-	}
 	footer{
 		flex-wrap: wrap;
 	}
