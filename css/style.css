@@ -132,7 +132,7 @@ footer{
 	padding: 10px;
 	text-align: center;
 	position: relative;
-	height: 55vh;
+	height: 35vh;
 	background-color: #ff7171;
 	display: flex;
 	justify-content: space-evenly;
@@ -170,6 +170,9 @@ footer h3{
 	font-size: 1.75rem;
 	margin-right: 15px;
 }
+.email{
+	font-size: 1rem;
+}
 .footer-nav a:hover{
 	color: #fff;
 	text-decoration: underline;
@@ -181,9 +184,7 @@ footer h3{
 */.contact{
 	width: 30%;
 }
-.email{
-	font-size: 1.25rem;
-}
+
 /* form{
 	text-align: left;
 }
