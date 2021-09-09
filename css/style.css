@@ -170,7 +170,7 @@ address a{
 	font-size: 1.75rem;
 	margin-right: 15px;
 }
-address:first-child{
+address a:first-child{
 	font-size: 1rem;
 }
 .footer-nav a:hover{
