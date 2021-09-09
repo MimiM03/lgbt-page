@@ -107,18 +107,11 @@ nav ul li:hover::before{
 	footer{
 		flex-wrap: wrap;
 	}
-	.mission{
-		width: 90%;
+	.mission, .footer-nav, .contact{
+		width: 90% !important;
 /* 		margin: 0 auto; */
 	}
-	.footer-nav{
-		width: 90%;
-/* 		margin: 0 auto; */
-	}
-	.contact{
-		width: 90vw;
-/* 		margin: 0 auto; */
-	}
+	
 }
 main{
 	position: relative;
