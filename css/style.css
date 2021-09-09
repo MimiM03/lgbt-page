@@ -109,7 +109,7 @@ nav ul li:hover::before{
 		margin-bottom: 20px;
 	}
 	.mission{
-		text-align:center;
+		text-align:center !important;
 	}
 	
 }
