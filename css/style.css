@@ -106,7 +106,10 @@ nav ul li:hover::before{
 	}
 	.mission, .footer-nav, .contact{
 		width: 90% !important;
-/* 		margin: 0 auto; */
+		margin-bottom: 20px;
+	}
+	.mission{
+		text-align:center;
 	}
 	
 }
