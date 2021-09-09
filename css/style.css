@@ -103,6 +103,7 @@ nav ul li:hover::before{
 	}
 	footer{
 		flex-wrap: wrap;
+		width:100vw;
 	}
 	.contact{
 		width: 90%;
