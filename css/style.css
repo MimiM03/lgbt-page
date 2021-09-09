@@ -166,43 +166,25 @@ footer h3{
 	color: #ffd9d9;
 	text-decoration: none;
 }
-address a{
-	font-size: 1.75rem;
-	margin-right: 15px;
-}
-address a:first-child{
-	font-size: 1rem;
-}
+
 .footer-nav a:hover{
 	color: #fff;
 	text-decoration: underline;
 }
-/*.contact a: hover{
-	color: #fff;
-	text-decoration: none;
-}
-*/.contact{
+.contact{
 	width: 30%;
 }
-
-/* form{
-	text-align: left;
+.email{
+	font-size: 1.25rem;
 }
-.form-control {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 6px;
-  margin-bottom: 10px;
-  resize: vertical;
+.email i{
+	margin-right: 5px;
+	margin-bottom: 20px;
 }
-
-input[type=submit] {
-  background-color: #5DADE2;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-  width: 25%;
-} */
+.facebook, .instagram{
+	font-size: 1.75rem;
+	margin-right: 15px;
+}
+.email:hover, .facebook:hover, .instagram:hover{
+	color: #fff;
+}
