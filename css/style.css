@@ -181,7 +181,10 @@ footer h3{
 */.contact{
 	width: 30%;
 }
-form{
+.email{
+	font-size: 1.25rem;
+}
+/* form{
 	text-align: left;
 }
 .form-control {
@@ -201,4 +204,4 @@ input[type=submit] {
   border: none;
   border-radius: 5px;
   width: 25%;
-}
+} */
