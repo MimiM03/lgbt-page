@@ -166,11 +166,11 @@ footer h3{
 	color: #ffd9d9;
 	text-decoration: none;
 }
-.contact a{
+address a{
 	font-size: 1.75rem;
 	margin-right: 15px;
 }
-.email{
+address:first-child{
 	font-size: 1rem;
 }
 .footer-nav a:hover{
