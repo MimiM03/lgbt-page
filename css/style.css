@@ -140,10 +140,10 @@ section > div{
 	right: 20px;
 }
 footer{
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
 	position: relative;
-	height: 35vh;
+/* 	height: 35vh; */
 	background-color: #ff7171;
 	display: flex;
 	justify-content: space-evenly;
