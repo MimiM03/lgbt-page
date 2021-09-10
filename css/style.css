@@ -193,10 +193,10 @@ footer h3{
 	margin-right: 5px;
 	margin-bottom: 20px;
 }
-.facebook, .instagram{
+.facebook, .instagram, .github{
 	font-size: 1.75rem;
 	margin-right: 15px;
 }
-.email:hover, .facebook:hover, .instagram:hover{
+.email:hover, .facebook:hover, .instagram:hover, .github:hover{
 	color: #fff;
 }
