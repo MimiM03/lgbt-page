@@ -200,3 +200,6 @@ footer h3{
 .email:hover, .facebook:hover, .instagram:hover, .github:hover, .linked-in:hover{
 	color: #fff;
 }
+.email:hover{
+	text-decoration: underline;
+}
